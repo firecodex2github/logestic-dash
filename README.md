@@ -1,59 +1,61 @@
-# Myapp
+### Spizybee Logistic Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
+A simple Angular standalone dashboard project that displays logistics orders using a public API.
 
-## Development server
+This project demonstrates:
 
-To start a local development server, run:
+* Angular Standalone Components
 
-```bash
-ng serve
-```
+* Routing with Resolver
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+* HTTP API Integration
 
-## Code scaffolding
+* Delete functionality
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* Bootstrap UI Styling
 
-```bash
-ng generate component component-name
-```
+* Bootstrap Icons
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+## Features
 
-## Building
+* Display order list from API
 
-To build the project run:
+* Show order status (Delivered / Pending)
 
-```bash
-ng build
-```
+* Delete order (UI level)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* Modern dashboard UI with Bootstrap
 
-## Running unit tests
+* Resolver-based data loading
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
 
-```bash
-ng test
-```
+### Technologies Used
 
-## Running end-to-end tests
+* Angular (Standalone Structure) version 20
 
-For end-to-end (e2e) testing, run:
+* TypeScript
 
-```bash
-ng e2e
-```
+* Bootstrap 5
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+* Bootstrap Icons
 
-## Additional Resources
+* JSONPlaceholder API
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## API Used
+https://jsonplaceholder.typicode.com/todos
+
+This is a fake API used for testing.
+
+
+
+
+## Run the project
+
+ ng serve
+
+Open in browser
+
+http://localhost:4200
